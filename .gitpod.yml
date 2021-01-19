@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: cd hello-world && npm i && npx gatsby build
+    command: npx gatsby develop
